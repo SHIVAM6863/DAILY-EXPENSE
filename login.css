@@ -1,88 +1,89 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f7eded;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: Arial, sans-serif;
+  background: #f7eded;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Centered container box */
 .container {
-    background-color: white;
-    padding: 40px 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 400px;
-    box-sizing: border-box;
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
 }
 
 /* Titles */
 h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 5px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 h2 {
-    text-align: center;
-    color: #666;
-    margin-bottom: 25px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
 }
 
 /* Labels */
 label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    color: #444;
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #444;
 }
 
 /* Inputs */
 input[type="text"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 /* Forgot password link */
 .forgot-password {
-    text-align: right;
-    font-size: 12px;
-    margin-top: -12px;
-    margin-bottom: 10px;
-    color: #007bff;
-    cursor: pointer;
+  text-align: right;
+  font-size: 12px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  color: #007bff;
+  cursor: pointer;
 }
 
 .forgot-password:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Button row */
 .button-group {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button {
-    width: 48%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
+  width: 48%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
