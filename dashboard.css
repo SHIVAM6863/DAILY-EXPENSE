@@ -1,0 +1,88 @@
+/* Layout Basics */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  background: #333;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #444;
+  cursor: pointer;
+}
+
+.sidebar li.active,
+.sidebar li:hover {
+  background: #00c0ef;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+/* Round Expense Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 15px;
+  border: 3px solid #ccc;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.card h2 {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+/* Card Colors */
+.blue { border-color: #00c0ef; }
+.orange { border-color: #f39c12; }
+.green { border-color: #00a65a; }
+.red { border-color: #dd4b39; }
+.gray { border-color: #888; }
